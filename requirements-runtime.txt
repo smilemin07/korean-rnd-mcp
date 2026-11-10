@@ -1,0 +1,13 @@
+# Serving-container dependencies — exact pins matching the Mac-verified venv
+# (2026-08-21). Ingest-only deps (pdfplumber, pypdfium2, torch/sentence-
+# transformers) are deliberately absent: the container embeds queries via
+# Workers AI and never parses PDFs. kiwipiepy MUST match the version that
+# built the lexical index (query tokenization must be identical).
+fastmcp==3.4.6
+httpx==0.28.1
+numpy==2.5.1
+tokenizers==0.22.2
+kiwipiepy==0.23.2
+uvicorn==0.52.1
+starlette==1.6.0
+pydantic==2.13.4

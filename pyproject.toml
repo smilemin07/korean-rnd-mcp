@@ -1,0 +1,31 @@
+[project]
+name = "korean-rnd-mcp"
+version = "0.1.0"
+description = "Free public-alpha remote MCP server: source-cited passage retrieval over Korean government R&D policy documents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [
+    {name = "Andy Kim"},
+]
+dependencies = [
+    "pdfplumber>=0.11,<0.12",
+    "pypdfium2>=5,<6",
+    "kiwipiepy>=0.23.2,<0.24",
+    "tokenizers>=0.23,<1",
+    "fastmcp>=3.4,<4",
+    "httpx>=0.28,<1",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+dev = [
+    "huggingface_hub",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rnd_factlink_mcp"]

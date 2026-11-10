@@ -1,0 +1,6 @@
+{
+ "note": "Served documents (public bundle) that have no registered source_url. Approval value for the bundle gate G8 — the runtime never derives this from live data. Update only through a reviewed diff (R2a procedure, UPDATE-PLAN-R1 §12 D-H).",
+ "as_of": "2026-11-10",
+ "sealed_release": null,
+ "doc_ids": []
+}

@@ -1,0 +1,25 @@
+# corpus work directory — originals and derived data are never committed
+# (originals are redistributable only under each document's own terms; indexes are large)
+vault/
+
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.uv-cache/
+
+# secrets / env
+.env
+*.key
+
+# models (downloaded weights)
+models/
+
+# macOS
+.DS_Store
+._*

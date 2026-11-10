@@ -1,0 +1,25 @@
+{
+ "kiwipiepy_version": "0.23.2",
+ "fixtures": {
+  "2027년도 국가연구개발 투자방향 및 기준(안)을 검토하였다.": {
+   "search_tokens": "2027 년도 국가 연구 개발 투자 방향 기준 안 검토",
+   "bge_count": 18
+  },
+  "연구개발비 사용 기준 제10조 제5호에 따라 데이터베이스 이용료를 집행할 수 있는가?": {
+   "search_tokens": "연구 개발비 사용 기준 10 조 5 호 따르 데이터베이스 이용료 집행 수 있",
+   "bge_count": 26
+  },
+  "Coding rules for embedded software, revision 2020.": {
+   "search_tokens": "coding rules for embedded software revision 2020.",
+   "bge_count": 11
+  },
+  "제6차 과학기술기본계획(2026-2030) 세부 실천과제 내역 - 국토교통부 소관": {
+   "search_tokens": "6 차 과학 기술 기본 계획 세부 실천 과제 내역 국토 교통부 소관",
+   "bge_count": 26
+  },
+  "가상기관 기술수준평가에서 건설·교통 분야는 최고기술국 대비 00.0% 수준이다.": {
+   "search_tokens": "가상 기관 기술 수준 평가 건설 교통 분야 최고 기술 국 대비 00.0 수준",
+   "bge_count": 23
+  }
+ }
+}
